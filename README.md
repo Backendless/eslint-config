@@ -14,3 +14,14 @@
 ```
 
 Might be needed to install package `peerDependencies`
+
+#### Extending:
+
+```
+{
+  "extends": "eslint-config-backendless",
+  
+  "rules": {
+    "no-console": 1
+  }
+}
