@@ -1,0 +1,19 @@
+{
+  "name": "eslint-config-backendless",
+  "version": "1.0.0",
+  "description": "Shared eslint config for Backendless JS-devs.",
+  "main": "index.js",
+  "author": "backendless",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": ">= 7.18.2",
+    "@babel/eslint-parser": ">= 7.18.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-plugin-import": ">= 2.22.1",
+    "eslint-plugin-jsx-a11y": ">= 6.4.1",
+    "eslint-plugin-react": ">= 7.22.0",
+    "eslint-plugin-simple-import-sort": ">= 7.0.0"
+  }
+}
