@@ -194,6 +194,7 @@ module.exports = {
         'children': 'never'
       }
     ],
+    'react/jsx-key'                 : ['warn', { 'checkFragmentShorthand': true }],
     /* https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules */
     'jsx-a11y/aria-role'        : 'warn',
     'jsx-a11y/img-redundant-alt': 'warn',
