@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-backendless",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Shared eslint config for Backendless JS-devs.",
   "main": "index.js",
   "author": "backendless",
