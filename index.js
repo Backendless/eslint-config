@@ -10,7 +10,8 @@ module.exports = {
     'browser' : true,
     'commonjs': true,
     'es6'     : true,
-    'node'    : true
+    'node'    : true,
+    'jest'    : true,
   },
   'parserOptions': {
     'ecmaVersion' : 2015,
@@ -141,6 +142,7 @@ module.exports = {
     ],
     'prefer-const'                  : 'warn',
     'no-throw-literal'              : 'warn',
+    'no-undef'                      : 'error',
     'no-unused-expressions'         : [
       'warn',
       {
