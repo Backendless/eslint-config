@@ -44,7 +44,7 @@ module.exports = {
     }
   },
   'rules'        : {
-    'simple-import-sort/imports'    : [
+    'simple-import-sort/imports' : [
       'warn',
       {
         'groups': [
@@ -88,9 +88,9 @@ module.exports = {
         ]
       }
     ],
-    'import/newline-after-import'   : 'warn',
-    'import/first'                  : 'warn',
-    'comma-dangle'                  : [
+    'import/newline-after-import': 'warn',
+    'import/first'               : 'warn',
+    'comma-dangle'               : [
       'warn',
       {
         'arrays' : 'always-multiline',
@@ -99,70 +99,82 @@ module.exports = {
         'imports': 'always-multiline'
       }
     ],
-    'func-style'                    : [
+    'func-style'                 : [
       'warn',
       'declaration',
       {
         'allowArrowFunctions': true
       }
     ],
-    'no-var'                        : 'warn',
-    'no-unused-vars'                : 'warn',
-    'max-len'                       : [
+    'no-var'                     : 'warn',
+    'no-unused-vars'             : 'warn',
+    'max-len'                    : [
       'warn',
       120
     ],
-    'semi'                          : [
+    'semi'                       : [
       'warn',
       'never'
     ],
-    'eqeqeq'                        : [
+    'eqeqeq'                     : [
       'warn',
       'smart'
     ],
-    'quotes'                        : [
+    'quotes'                     : [
       'warn',
       'single',
       'avoid-escape'
     ],
-    'jsx-quotes'                    : [
+    'jsx-quotes'                 : [
       'warn',
       'prefer-double'
     ],
-    'arrow-spacing'                 : [
+    'arrow-spacing'              : [
       'warn',
       {
         'before': true,
         'after' : true
       }
     ],
-    'arrow-parens'                  : [
+    'arrow-parens'               : [
       'warn',
       'as-needed'
     ],
-    'prefer-const'                  : 'warn',
-    'no-throw-literal'              : 'warn',
-    'no-undef'                      : 'error',
-    'no-unused-expressions'         : [
+    'prefer-const'               : 'warn',
+    'no-throw-literal'           : 'warn',
+    'no-undef'                   : 'error',
+    'no-unused-expressions'      : [
       'warn',
       {
         'allowShortCircuit': true
       }
     ],
-    'object-curly-spacing'          : [
+    'object-curly-spacing'       : [
       'warn',
       'always'
     ],
-    'comma-spacing'                 : [
+    'comma-spacing'              : [
       'warn'
     ],
 
-    'space-before-blocks'       : 'warn',
-    'space-in-parens'           : 'warn',
-    'keyword-spacing'           : 'warn',
-    'brace-style'               : 'warn',
-    'no-multi-spaces'           : 'warn',
-    'spaced-comment'            : 'warn',
+    'space-before-blocks': 'warn',
+    'space-in-parens'    : 'warn',
+    'keyword-spacing'    : 'warn',
+    'brace-style'        : 'warn',
+    'no-multi-spaces'    : 'warn',
+    'spaced-comment'     : 'warn',
+
+    'indent': ['warn', 2, { 'SwitchCase': 1 }],
+
+    'padding-line-between-statements': [
+      'warn',
+      { blankLine: 'always', prev: 'block-like', next: '*' },
+      { blankLine: 'always', prev: '*', next: 'return' },
+      { blankLine: 'always', prev: 'multiline-block-like', next: '*' },
+      { blankLine: 'always', prev: '*', next: 'multiline-block-like' },
+      { blankLine: 'always', prev: 'multiline-expression', next: '*' },
+      { blankLine: 'always', prev: '*', next: 'multiline-expression' },
+    ],
 
     'react/jsx-equals-spacing'      : [
       'warn',
