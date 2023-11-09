@@ -156,6 +156,14 @@ module.exports = {
     'comma-spacing'                 : [
       'warn'
     ],
+
+    'space-before-blocks'       : 'warn',
+    'space-in-parens'           : 'warn',
+    'keyword-spacing'           : 'warn',
+    'brace-style'               : 'warn',
+    'no-multi-spaces'           : 'warn',
+    'spaced-comment'            : 'warn',
+
     'react/jsx-equals-spacing'      : [
       'warn',
       'never'
