@@ -1,5 +1,7 @@
 ### Eslint config for Backendless developers
 
+Repo: [link](https://github.com/Backendless/eslint-config.git)
+
 ```npm i eslint-config-backendless```
 
 #### Usage:
@@ -25,3 +27,4 @@ Might be needed to install package `peerDependencies`
     "no-console": 1
   }
 }
+```

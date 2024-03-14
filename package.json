@@ -4,6 +4,10 @@
   "description": "Shared eslint config for Backendless JS-devs.",
   "main": "index.js",
   "author": "backendless",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Backendless/eslint-config.git"
+  },
   "license": "ISC",
   "dependencies": {
     "@babel/core": ">= 7.18.6",
