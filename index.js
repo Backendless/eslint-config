@@ -45,7 +45,7 @@ module.exports = {
   },
   'rules'        : {
     'simple-import-sort/imports' : [
-      'warn',
+      'error',
       {
         'groups': [
           /* Styles */
@@ -88,10 +88,10 @@ module.exports = {
         ]
       }
     ],
-    'import/newline-after-import': 'warn',
-    'import/first'               : 'warn',
+    'import/newline-after-import': 'error',
+    'import/first'               : 'error',
     'comma-dangle'               : [
-      'warn',
+      'error',
       {
         'arrays' : 'always-multiline',
         'objects': 'always-multiline',
@@ -100,74 +100,74 @@ module.exports = {
       }
     ],
     'func-style'                 : [
-      'warn',
+      'error',
       'declaration',
       {
         'allowArrowFunctions': true
       }
     ],
-    'no-var'                     : 'warn',
-    'no-unused-vars'             : 'warn',
+    'no-var'                     : 'error',
+    'no-unused-vars'             : 'error',
     'max-len'                    : [
-      'warn',
+      'error',
       120
     ],
     'semi'                       : [
-      'warn',
+      'error',
       'never'
     ],
     'eqeqeq'                     : [
-      'warn',
+      'error',
       'smart'
     ],
     'quotes'                     : [
-      'warn',
+      'error',
       'single',
       'avoid-escape'
     ],
     'jsx-quotes'                 : [
-      'warn',
+      'error',
       'prefer-double'
     ],
     'arrow-spacing'              : [
-      'warn',
+      'error',
       {
         'before': true,
         'after' : true
       }
     ],
     'arrow-parens'               : [
-      'warn',
+      'error',
       'as-needed'
     ],
-    'prefer-const'               : 'warn',
-    'no-throw-literal'           : 'warn',
+    'prefer-const'               : 'error',
+    'no-throw-literal'           : 'error',
     'no-undef'                   : 'error',
     'no-unused-expressions'      : [
-      'warn',
+      'error',
       {
         'allowShortCircuit': true
       }
     ],
     'object-curly-spacing'       : [
-      'warn',
+      'error',
       'always'
     ],
     'comma-spacing'              : [
-      'warn'
+      'error'
     ],
 
-    'space-before-blocks': 'warn',
-    'space-in-parens'    : 'warn',
-    'keyword-spacing'    : 'warn',
-    'brace-style'        : 'warn',
-    'no-multi-spaces'    : 'warn',
-    'spaced-comment'     : 'warn',
+    'space-before-blocks': 'error',
+    'space-in-parens'    : 'error',
+    'keyword-spacing'    : 'error',
+    'brace-style'        : 'error',
+    'no-multi-spaces'    : 'error',
+    'spaced-comment'     : 'error',
 
-    'indent': ['warn', 2, { 'SwitchCase': 1 }],
+    'indent': ['error', 2, { 'SwitchCase': 1 }],
 
     'padding-line-between-statements': [
-      'warn',
+      'error',
       { blankLine: 'always', prev: 'block-like', next: '*' },
       { blankLine: 'always', prev: '*', next: 'return' },
       { blankLine: 'always', prev: 'multiline-block-like', next: '*' },
@@ -177,28 +177,28 @@ module.exports = {
     ],
 
     'react/jsx-equals-spacing'      : [
-      'warn',
+      'error',
       'never'
     ],
     'react/jsx-no-duplicate-props'  : [
-      'warn',
+      'error',
       {
         'ignoreCase': true
       }
     ],
-    'react/jsx-no-undef'            : 'warn',
+    'react/jsx-no-undef'            : 'error',
     'react/jsx-pascal-case'         : [
-      'warn',
+      'error',
       {
         'allowAllCaps': true,
         'ignore'      : []
       }
     ],
-    'react/jsx-uses-react'          : 'warn',
-    'react/jsx-uses-vars'           : 'warn',
-    'react/jsx-wrap-multilines'     : 'warn',
+    'react/jsx-uses-react'          : 'error',
+    'react/jsx-uses-vars'           : 'error',
+    'react/jsx-wrap-multilines'     : 'error',
     'react/jsx-curly-spacing'       : [
-      'warn',
+      'error',
       'always',
       {
         'allowMultiline': false,
@@ -207,19 +207,19 @@ module.exports = {
         }
       }
     ],
-    'react/no-is-mounted'           : 'warn',
-    'react/require-render-return'   : 'warn',
+    'react/no-is-mounted'           : 'error',
+    'react/require-render-return'   : 'error',
     'react/jsx-curly-brace-presence': [
-      'warn',
+      'error',
       {
         'props'   : 'never',
         'children': 'never'
       }
     ],
-    'react/jsx-key'                 : ['warn', { 'checkFragmentShorthand': true }],
+    'react/jsx-key'                 : ['error', { 'checkFragmentShorthand': true }],
     /* https://github.com/evcohen/eslint-plugin-jsx-a11y/tree/master/docs/rules */
-    'jsx-a11y/aria-role'        : 'warn',
-    'jsx-a11y/img-redundant-alt': 'warn',
-    'jsx-a11y/no-access-key'    : 'warn'
+    'jsx-a11y/aria-role'        : 'error',
+    'jsx-a11y/img-redundant-alt': 'error',
+    'jsx-a11y/no-access-key'    : 'error'
   }
 }
