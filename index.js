@@ -107,7 +107,7 @@ module.exports = {
       }
     ],
     'no-var'                     : 'error',
-    'no-unused-vars'             : 'error',
+    'no-unused-vars'             : 'warn',
     'max-len'                    : [
       'error',
       120
@@ -144,7 +144,7 @@ module.exports = {
     'no-throw-literal'           : 'error',
     'no-undef'                   : 'error',
     'no-unused-expressions'      : [
-      'error',
+      'warn',
       {
         'allowShortCircuit': true
       }
